@@ -20,7 +20,6 @@ import OrderDetailTable from "./OrderDetailTable";
 import Balance from "./Balance";
 import { transformTimestampToTaipeiDatetime } from "@/utils";
 import { accountOptions } from "@/account";
-import { useBalance } from "@/hooks/useBalance"; // 引入 useBalance hook
 import TransferBalanceButton from "./TransferBalanceButton";
 
 export default function Order() {
